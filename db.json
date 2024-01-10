@@ -1,13 +1,55 @@
 {
-  "users": [
-    {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
-      "id": 1
-    }
-  ],
-  "posts": [],
-  "likes": []
+    "users": [
+        {
+            "email": "daniel@mail.com",
+            "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+            "name": "Daniel",
+            "age": 24,
+            "id": 1
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "4 lugares para viajar nas próximas férias de verão",
+            "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+            "owner": "Daniel",
+            "userId": 1,
+            "image": "https://res.cloudinary.com/dsbkp5841/image/upload/v1688391686/Rectangle_4_lvbqtd.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Novo Estudo Revela Benefícios Surpreendentes da Caminhada Diária",
+            "description": "Um estudo recente, conduzido por especialistas em saúde de renome internacional, trouxe à tona benefícios surpreendentes associados à prática diária de caminhadas. Os resultados indicam que dedicar 30 minutos diários a essa atividade simples pode impactar positivamente diversos aspectos da saúde. Desde a melhoria significativa da saúde cardiovascular até a redução notável dos níveis de estresse, os benefícios da caminhada são inegáveis.",
+            "owner": "Daniel",
+            "userId": 1,
+            "image": "https://img.freepik.com/fotos-gratis/feliz-jovem-em-campo-na-primavera_1301-5826.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Descoberta Científica: Alimentação Saudável Pode Ajudar na Prevenção de Doenças Crônicas",
+            "description": "Uma pesquisa abrangente realizada por cientistas de diversas disciplinas revelou que a adoção de uma alimentação saudável desempenha um papel crucial na prevenção de doenças crônicas. A ingestão regular de alimentos ricos em nutrientes, como frutas, vegetais e grãos integrais, demonstrou ser eficaz na redução do risco de desenvolvimento de condições como diabetes tipo 2 e doenças cardíacas.",
+            "owner": "Daniel",
+            "userId": 1,
+            "image": "https://www.paho.org/sites/default/files/alimentacao-saudavel-diversificada.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Inovação Tecnológica: Empresa Lança Dispositivo Revolucionário para Economizar Energia",
+            "description": "Uma empresa líder em tecnologia acaba de apresentar ao mercado um dispositivo revolucionário destinado a transformar a maneira como consumimos energia em nossas residências e ambientes de trabalho. Utilizando avançada inteligência artificial, o dispositivo identifica padrões de consumo e sugere ajustes automáticos, proporcionando não apenas economia significativa nas contas de energia, mas também contribuindo para a sustentabilidade ambiental.",
+            "owner": "Daniel",
+            "userId": 1,
+            "image": "https://img.freepik.com/vetores-gratis/vetor-de-energia-eolica-com-fundo-de-turbinas-eolicas_53876-112083.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703462400&semt=ais"
+        },
+        {
+            "id": 5,
+            "title": "Avanços na Pesquisa Médica: Novo Tratamento Mostra Promessa contra Doenças Neurodegenerativas",
+            "description": "Uma equipe de pesquisadores anunciou avanços promissores no desenvolvimento de um tratamento inovador para doenças neurodegenerativas, como Alzheimer e Parkinson. Os resultados preliminares dos testes clínicos indicam que o tratamento pode retardar a progressão dessas condições, oferecendo esperança para milhões de pessoas em todo o mundo que enfrentam os desafios dessas enfermidades debilitantes.",
+            "owner": "Daniel",
+            "userId": 1,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYFxYMcGx5KfkeitfarXv-XOStZEvg3Iay5X36WiL5JA&s"
+        }
+        
+    ],
+    "likes": []
 }
