@@ -1,9 +1,5 @@
 <h1 align="center">
-  <img alt="KenzieHub" title="KenzieHub" src="https://kenzie.com.br/_next/image?url=%2Fimages%2Flogo.png&w=640&q=75" width="100px" />
-</h1>
-
-<h1 align="center">
-  KenzieFeed - API
+  Global News - API
 </h1>
 
 <p align="center">
